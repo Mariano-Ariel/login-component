@@ -1,0 +1,187 @@
+/* The styles are based in the UI for Instagram */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fafafa;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-title {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    color: #262626;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 9px 10px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #262626;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #007bb5;
+  }
+  
+  .login-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .login-divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .login-divider span {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .login-fb-btn {
+    background: none;
+    border: none;
+    color: #385185;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-fb-btn i {
+    margin-right: 5px;
+  }
+  
+  .forgot-password {
+    color: #385185;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .signup-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  .signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Responsive part */
+  @media (max-width: 768px) {
+    .login-box, .signup-box {
+      width: 100%;
+      max-width: 90%;
+      padding: 20px;
+    }
+    
+    .login-title {
+      font-size: 40px;
+    }
+  
+    input {
+      font-size: 12px;
+    }
+  
+    .login-btn {
+      padding: 6px;
+    }
+  
+    .login-divider span {
+      font-size: 12px;
+    }
+  
+    .login-fb-btn {
+      font-size: 14px;
+    }
+  
+    .forgot-password {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-box, .signup-box {
+      max-width: 95%;
+      padding: 15px;
+    }
+    
+    .login-title {
+      font-size: 36px;
+    }
+  
+    input {
+      font-size: 12px;
+      padding: 7px;
+    }
+  
+    .login-btn {
+      padding: 5px;
+    }
+  
+    .login-divider span {
+      font-size: 11px;
+    }
+  
+    .login-fb-btn {
+      font-size: 12px;
+    }
+  
+    .forgot-password {
+      font-size: 9px;
+    }
+  }
+  
